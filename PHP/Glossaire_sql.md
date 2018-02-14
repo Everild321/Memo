@@ -35,20 +35,24 @@ Glossaire SQL
 |**UPDATE**|Mise à jour (réécriture) de données dans une table|
 |**DELETE**|Suppression de données dans une table
 
+------------------------------------------------------------------------------------------
+## PHP fait la jonction entre nous et MySQL
 
-PHP fait la jonction entre vous et MySQL
-Il va faire l'intermédiaire entre nous et MySQL. 
-On devra demander à PHP : « Va dire à MySQL de faire ceci. »
+	Il va faire l'intermédiaire entre nous et **MySQL**. 
+	On devra demander à **PHP** : 
+	« Va dire à MySQL de faire ceci. »
 
-![Schéma architecture d'un site]("http://www.phpdebutant.org/system/images/intro/schema2.gif")
+![Schéma architecture d'un site](http://www.phpdebutant.org/system/images/intro/schema2.gif)
 
-* le serveur utilise toujours PHP, il lui fait donc passer le message ;
+	le serveur utilise toujours PHP, il lui fait donc passer le message ;
 
-* PHP effectue les actions demandées et se rend compte qu'il a besoin de MySQL. En effet, le code PHP contient à un endroit « Va demander à MySQL d'enregistrer ce message ». Il fait donc passer le travail à MySQL ;
+	PHP effectue les actions demandées et se rend compte qu'il a besoin de MySQL. 
+	En effet, le code PHP contient à un endroit « Va demander à MySQL d'enregistrer ce message ». 
+	Il fait donc passer le travail à MySQL ;
 
-* MySQL fait le travail que PHP lui avait soumis et lui répond « O.K., c'est bon ! » ;
+	MySQL fait le travail que PHP lui avait soumis et lui répond « O.K., c'est bon ! » ;
 
-* PHP renvoie au serveur que MySQL a bien fait ce qui lui était demandé.
-Il peut donc renvoyer au client une page html.
+	PHP renvoie au serveur que MySQL a bien fait ce qui lui était demandé.
+	Il peut donc renvoyer au client une page html.
 
 
